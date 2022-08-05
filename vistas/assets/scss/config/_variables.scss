@@ -1,0 +1,55 @@
+$max-width: 1400px;
+$header-height : 5rem;
+
+// Paleta de colores
+
+$primary-color : #19B1CF;
+
+// Fuentes
+    // Barlow Semi Condensed para los títulos
+
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;700&display=swap');
+    $font-headers: 'Barlow Semi Condensed', sans-serif;
+
+    // Ubuntu para el texto
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+    $font-main: 'Ubuntu', sans-serif;
+
+// Breakpoints
+
+$breakpoints : (
+    sm  : 30em, //480px
+    md :  48em, //768
+    lg  : 64em, //1024
+    xl  : 75em  //1200
+);
+
+:root {
+
+	--h1-font-size    : 3rem;
+    --h2-font-size    : 2.3rem;
+    --h3-font-size    : 1.75rem;
+    --body-font-size  : .9rem;
+    --small-font-size : .75rem;
+
+	@include from(lg){
+
+		--h1--font-size    :  3.125rem;
+		--h2--font-size    : 2.8125rem;
+		--h3--font-size    :2.1875rem;
+		--body--font-size  : 1rem;
+		--small--font-size : .8rem;
+
+	}
+
+}
+
+// Variables de apilamiento(z-index)
+
+:root{
+    --z-back    : -10;
+    --z-normal  : 1;
+    --z-tooltip : 10;
+    --z-fixed   : 100;
+    --z-modal   : 1000;
+}
