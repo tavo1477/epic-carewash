@@ -12,7 +12,16 @@
 
 <body>
 
-	<h1>Hola</h1>
+	<?php 
+
+	/*=============================================
+	Módulos fijos superiores
+	=============================================*/	
+
+	include "paginas/modulos/header.php";
+
+
+	?>
 	
 </body>
 </html>
