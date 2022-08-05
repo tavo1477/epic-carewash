@@ -28,6 +28,24 @@ $ruta = ControladorRuta::ctrRuta();
 
 	include "paginas/modulos/header.php";
 
+	/*=============================================
+	Navegar entre páginas
+	=============================================*/	
+
+	if (isset($_GET["ruta"])) {
+
+		if ($_GET["ruta"] == "inicio"){
+
+			include "paginas/".$_GET["pagina"].".php";
+
+		}
+
+	} else {
+
+		include "paginas/inicio.php";
+		
+	}
+
 
 	?>
 
