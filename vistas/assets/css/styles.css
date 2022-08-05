@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
 :root {
@@ -87,4 +88,203 @@ p {
 
 .center-content {
   text-align: center;
+}
+
+/*=============================================
+MENÚ
+=============================================*/
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  font-size: 1.1rem;
+  background: #fff;
+  max-width: 1400px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar__link {
+  padding: 10px;
+}
+.navbar__link a {
+  color: #000;
+}
+.navbar__link a:hover {
+  color: #CCB686;
+}
+
+.burger {
+  display: none;
+}
+
+/*  Small device */
+@media screen and (max-width: 767.98px) {
+  .navbar__links {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 0;
+    height: calc(100vh - 65px);
+    position: absolute;
+    top: 65px;
+    right: 0;
+    background: #fff;
+    -webkit-transform: translateX(110%);
+            transform: translateX(110%);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .show-nav .navbar__links {
+    width: 100vw;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+
+  .navbar__link {
+    -webkit-transform: translateX(101%);
+            transform: translateX(101%);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .show-nav .navbar__link {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+
+  .navbar__link > a {
+    display: block;
+    padding: 0.3rem;
+    font-size: 1rem;
+    color: #000;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .navbar__link > a:hover {
+    padding-left: 2rem;
+  }
+
+  /* Toggle menu */
+  .burger {
+    display: block;
+    position: relative;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding-right: 50px;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    border-radius: 3px;
+    background: #000;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .bar::before, .bar::after {
+    content: "";
+    width: 45px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    background: #000;
+    border-radius: 3px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .bar::before {
+    -webkit-transform: translateY(-12px);
+            transform: translateY(-12px);
+  }
+
+  .bar::after {
+    -webkit-transform: translateY(12px);
+            transform: translateY(12px);
+  }
+
+  .show-nav .bar {
+    width: 0;
+    background: #000;
+  }
+
+  .show-nav .bar::before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+
+  .show-nav .bar::after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+
+  /* Bonus - Animations */
+  .show-nav .first {
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+  }
+
+  .show-nav .second {
+    -webkit-transition: all 1.1s ease-out;
+    transition: all 1.1s ease-out;
+  }
+
+  .show-nav .third {
+    -webkit-transition: all 1.2s ease-out;
+    transition: all 1.2s ease-out;
+  }
+
+  .show-nav .four {
+    -webkit-transition: all 1.3s ease-out;
+    transition: all 1.3s ease-out;
+  }
+
+  .show-nav .fifth {
+    -webkit-transition: all 1.4s ease-out;
+    transition: all 1.4s ease-out;
+  }
+}
+/*  Medium device - Bonus */
+@media screen and (min-width: 768px) {
+  .navbar__link > a::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 1px;
+    -webkit-transition: width 0.4s;
+    transition: width 0.4s;
+  }
+
+  .navbar__link:hover > a::after {
+    width: 100%;
+  }
 }
