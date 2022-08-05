@@ -30,6 +30,8 @@ $ruta = ControladorRuta::ctrRuta();
 
 
 	?>
+
+	<script async src="<?php echo $ruta ?>vistas/js/header.js"></script>
 	
 </body>
 </html>
