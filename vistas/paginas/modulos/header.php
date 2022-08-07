@@ -1,35 +1,73 @@
 <!--=============================================
-MENÚ
+HEADER
 =============================================-->
 
 <header class="main-header">
- 
-	<nav class="navbar l-container" role="navigation">
-		
-		<a href="#">
+
+	<section class="main-header__block l-container">
+
+		<a href="<?php echo $ruta ?>">
 			
-			<div class="navbar__logo">Logo</div>
+			<img src="<?php echo $ruta ?>vistas/images/logo.png" alt="">
 
-		</a>
+		</a>	
 
-		 <ul class="navbar__links">
-		 	
-		 	<li class="navbar__link first"><a href="#">Inicio</a></li>
-	      	<li class="navbar__link second"><a href="#">¿Quiénes somos?</a></li>
-	      	<li class="navbar__link third"><a href="#">Servicios</a></li>
-	      	<li class="navbar__link four"><a href="#">Portafolio</a></li>
-	      	<li class="navbar__link fifth"><a href="#">Contacto</a></li>
+		<div class="main-menu-toggle" id="main-menu-toggle">
+			
+			<i class="fas fa-bars"></i>
 
-	    </ul>  
+		</div>
 
-	    <button class="burger">
+		<nav class="main-nav" id="main-nav">
+			
+			<ul class="main-menu">
 
-	      <span class="bar"></span>  
+				<li class="main-menu__item">
 
-	    </button>   
+					<a href="#" class="main-menu__link">Inicio </a>
+					
+				</li>				
 
-		 </ul>
+				<li class="main-menu__item">
 
-	</nav>
+					<a href="#" class="main-menu__link">¿Quiénes somos?</a>
+
+				</li>
+
+				<li class="main-menu__item">
+
+					<a href="#" class="main-menu__link">Servicios</a>	
+
+				</li>				
+
+				<li class="main-menu__item">
+
+					<a href="#" class="main-menu__link">Paquetes</a>	
+
+				</li>	
+
+				<li class="main-menu__item">
+
+					<a href="#" class="main-menu__link">Agendar</a>	
+
+				</li>	
+
+				<li class="main-menu__item">
+
+					<a href="#" class="main-menu__link">Portafolio</a>	
+
+				</li>	
+
+				<li class="main-menu__item">
+
+					<a href="#" class="main-menu__link">Contacto</a>	
+
+				</li>								
+
+			</ul>
+
+		</nav>		
+
+	</section>	
 
 </header>
