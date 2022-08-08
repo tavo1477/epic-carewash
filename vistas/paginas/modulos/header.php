@@ -3,71 +3,67 @@ HEADER
 =============================================-->
 
 <header class="main-header">
-
+	
 	<section class="main-header__block l-container">
 
 		<a href="<?php echo $ruta ?>">
 			
-			<img src="<?php echo $ruta ?>vistas/images/logo.png" alt="">
+			<img class="main-logo" src="<?php echo $ruta ?>vistas/images/logo.png" style="width: 110px; height: 110px;" alt="">
 
-		</a>	
+		</a>
 
-		<div class="main-menu-toggle" id="main-menu-toggle">
-			
-			<i class="fas fa-bars"></i>
-
-		</div>
+		<div class="main-menu-toggle" id="main-menu-toggle"></div>
 
 		<nav class="main-nav" id="main-nav">
 			
 			<ul class="main-menu">
-
+				
 				<li class="main-menu__item">
 
-					<a href="#" class="main-menu__link">Inicio </a>
+					<a href="#" class="main-menu__link">Inicio</a>
 					
-				</li>				
-
-				<li class="main-menu__item">
-
-					<a href="#" class="main-menu__link">¿Quiénes somos?</a>
-
 				</li>
 
 				<li class="main-menu__item">
 
-					<a href="#" class="main-menu__link">Servicios</a>	
-
-				</li>				
-
-				<li class="main-menu__item">
-
-					<a href="#" class="main-menu__link">Paquetes</a>	
-
-				</li>	
+					<a href="#" class="main-menu__link">¿Quiénes somos?</a>
+					
+				</li>
 
 				<li class="main-menu__item">
 
-					<a href="#" class="main-menu__link">Agendar</a>	
-
-				</li>	
-
-				<li class="main-menu__item">
-
-					<a href="#" class="main-menu__link">Portafolio</a>	
-
-				</li>	
+					<a href="#" class="main-menu__link">Servicios</a>
+					
+				</li>
 
 				<li class="main-menu__item">
 
-					<a href="#" class="main-menu__link">Contacto</a>	
+					<a href="#" class="main-menu__link">Paquetes</a>
+					
+				</li>
 
-				</li>								
+				<li class="main-menu__item">
+
+					<a href="#" class="main-menu__link">Agendar</a>
+					
+				</li>
+
+				<li class="main-menu__item">
+
+					<a href="#" class="main-menu__link">Portafolio</a>
+					
+				</li>
+
+				<li class="main-menu__item">
+
+					<a href="#" class="main-menu__link">Contacto</a>
+					
+				</li>
 
 			</ul>
 
 		</nav>		
 
-	</section>	
+	</section>
 
 </header>
