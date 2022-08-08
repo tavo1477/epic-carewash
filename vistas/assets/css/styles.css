@@ -369,3 +369,104 @@ MENÚ
   padding-bottom: 10px;
   font-family: "Ubuntu", sans-serif;
 }
+
+/*=============================================
+SERVICIOS
+=============================================*/
+.servicios {
+  background: #253685;
+  margin-top: -10px;
+  position: relative;
+  height: 180vh;
+}
+@media screen and (min-width: 64em) {
+  .servicios {
+    height: 50vh;
+  }
+}
+.servicios-container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  position: absolute;
+  top: -50px;
+  width: 100%;
+}
+@media screen and (min-width: 64em) {
+  .servicios-container {
+    bottom: 50%;
+  }
+}
+.servicios-container .servicios-item {
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+  width: 100%;
+  background: #fff;
+  border-radius: 7px;
+}
+@media screen and (min-width: 48em) {
+  .servicios-container .servicios-item {
+    width: calc(50% - 2rem);
+    margin: 1rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  .servicios-container .servicios-item {
+    width: calc(25% - 2rem);
+    margin: 1rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  .servicios-container .servicios-item {
+    width: calc(25% - 2rem);
+    margin: 1rem;
+  }
+}
+.servicios-container .servicios-item .servicios-img {
+  text-align: left;
+}
+.servicios-container .servicios-item .servicios-img img {
+  width: 70px;
+  height: 70px;
+}
+.servicios-container .servicios-item .servicios-title {
+  font-size: 1.25rem;
+  color: #263788;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: normal;
+}
+
+.service-calling {
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media screen and (min-width: 64em) {
+  .service-calling {
+    font-size: 1.25rem;
+  }
+}
+.service-calling .movil-call {
+  background: #285EAC;
+  margin-left: 1rem;
+  padding: 10px 14px;
+  border-radius: 99px;
+  margin-top: 1.5rem;
+}
+@media screen and (min-width: 64em) {
+  .service-calling .movil-call {
+    margin-top: 0;
+  }
+}
+.service-calling .movil-call span {
+  color: #2db7ff;
+}
