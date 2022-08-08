@@ -63,7 +63,7 @@ p {
 
 .l-container {
   max-width: 1400px;
-  padding-left: 1rem;
+  padding-left: 2rem;
   padding-right: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -93,198 +93,89 @@ p {
 /*=============================================
 MENÚ
 =============================================*/
-.navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.main-header {
+  background: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+}
+.main-header__block {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 10px;
-  font-size: 1.1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.main-header__block .main-nav {
+  position: fixed;
+  height: calc(100vh - 5rem);
+  width: 100vw;
   background: #fff;
-  max-width: 1400px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-right: auto;
-  margin-left: auto;
+  top: 100px;
+  right: -100vw;
+  -webkit-transition: right 0.3s;
+  transition: right 0.3s;
+  z-index: var(--z-fixed);
 }
-
-.navbar__links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media screen and (min-width: 64em) {
+  .main-header__block .main-nav {
+    position: static;
+    background: transparent;
+    padding: 0;
+    height: auto;
+    width: auto;
+    margin-top: 1rem;
+  }
 }
-
-.navbar__link {
-  padding: 10px;
+.main-header__block .main-nav.show {
+  right: 0;
 }
-.navbar__link a {
-  color: #000;
+.main-header__block .main-nav .main-menu {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
-.navbar__link a:hover {
-  color: #CCB686;
-}
-
-.burger {
-  display: none;
-}
-
-/*  Small device */
-@media screen and (max-width: 767.98px) {
-  .navbar__links {
-    overflow: hidden;
+@media screen and (min-width: 64em) {
+  .main-header__block .main-nav .main-menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 0;
-    height: calc(100vh - 65px);
-    position: absolute;
-    top: 65px;
-    right: 0;
-    background: #fff;
-    -webkit-transform: translateX(110%);
-            transform: translateX(110%);
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .show-nav .navbar__links {
-    width: 100vw;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-
-  .navbar__link {
-    -webkit-transform: translateX(101%);
-            transform: translateX(101%);
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .show-nav .navbar__link {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-
-  .navbar__link > a {
-    display: block;
-    padding: 0.3rem;
-    font-size: 1rem;
-    color: #000;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-  }
-
-  .navbar__link > a:hover {
-    padding-left: 2rem;
-  }
-
-  /* Toggle menu */
-  .burger {
-    display: block;
-    position: relative;
-    padding: 0;
-    width: 25px;
-    height: 25px;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    padding-right: 50px;
-  }
-
-  .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    border-radius: 3px;
-    background: #000;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .bar::before, .bar::after {
-    content: "";
-    width: 45px;
-    height: 3px;
-    position: absolute;
-    left: 0;
-    background: #000;
-    border-radius: 3px;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .bar::before {
-    -webkit-transform: translateY(-12px);
-            transform: translateY(-12px);
-  }
-
-  .bar::after {
-    -webkit-transform: translateY(12px);
-            transform: translateY(12px);
-  }
-
-  .show-nav .bar {
-    width: 0;
-    background: #000;
-  }
-
-  .show-nav .bar::before {
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-  }
-
-  .show-nav .bar::after {
-    -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-  }
-
-  /* Bonus - Animations */
-  .show-nav .first {
-    -webkit-transition: all 1s ease-out;
-    transition: all 1s ease-out;
-  }
-
-  .show-nav .second {
-    -webkit-transition: all 1.1s ease-out;
-    transition: all 1.1s ease-out;
-  }
-
-  .show-nav .third {
-    -webkit-transition: all 1.2s ease-out;
-    transition: all 1.2s ease-out;
-  }
-
-  .show-nav .four {
-    -webkit-transition: all 1.3s ease-out;
-    transition: all 1.3s ease-out;
-  }
-
-  .show-nav .fifth {
-    -webkit-transition: all 1.4s ease-out;
-    transition: all 1.4s ease-out;
   }
 }
-/*  Medium device - Bonus */
-@media screen and (min-width: 768px) {
-  .navbar__link > a::after {
-    display: block;
-    content: "";
-    width: 0;
-    height: 1px;
-    -webkit-transition: width 0.4s;
-    transition: width 0.4s;
+.main-header__block .main-nav .main-menu__item {
+  padding: 0.8rem;
+  font-size: 1.375rem;
+  text-align: left;
+}
+@media screen and (min-width: 64em) {
+  .main-header__block .main-nav .main-menu__item {
+    font-size: 1rem;
   }
+}
+.main-header__block .main-nav .main-menu__link {
+  color: #000;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+.main-header__block .main-nav .main-menu__link:hover {
+  color: #CCB686;
+  font-weight: bold;
+}
 
-  .navbar__link:hover > a::after {
-    width: 100%;
+.main-menu-toggle {
+  width: 2.2rem;
+  height: 1.6rem;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, black), color-stop(20%, transparent), color-stop(40%, transparent), color-stop(40%, black), color-stop(60%, black), color-stop(60%, transparent), color-stop(80%, transparent), color-stop(80%, black));
+  background: linear-gradient(black 20%, transparent 20%, transparent 40%, black 40%, black 60%, transparent 60%, transparent 80%, black 80%);
+  cursor: pointer;
+}
+@media screen and (min-width: 64em) {
+  .main-menu-toggle {
+    display: none;
   }
 }
