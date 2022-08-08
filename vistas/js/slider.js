@@ -6,7 +6,7 @@ var p = {
 
 	item: 0,
 	cajaSlide: document.querySelector("#slide ul"),
-	animacionSilde: "fade",
+	animacionSilde: "slide",
 	imgSlide: document.querySelectorAll("#slide ul li"),
 	avanzar: document.querySelector("#slide #avanzar"),
 	retroceder: document.querySelector("#slide #retroceder"),
@@ -68,13 +68,13 @@ var m = {
 
 		p.cajaSlide.style.left = item * -100 + "%";		
 
-		if (p.animacionSilde == "fade") {
+		if (p.animacionSilde == "slide") {
 
 			p.cajaSlide.style.transition = ".7s left ease-in-out";
 
 		}
 
-		if (p.animacionSilde == "fade") {
+		if (p.animacionSilde == "slide") {
 
 			p.imgSlide[item].style.opacity = 0;
 
@@ -84,7 +84,7 @@ var m = {
 
 				p.imgSlide[item].style.opacity = 1;
 
-			}, 500)
+			}, 1000)
 
 		}
 
