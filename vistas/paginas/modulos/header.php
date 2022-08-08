@@ -22,37 +22,14 @@ HEADER
 
 					<a href="#" class="main-menu__link">Inicio</a>
 					
-				</li>
-
-				<li class="main-menu__item">
-
-					<a href="#" class="main-menu__link">¿Quiénes somos?</a>
-					
-				</li>
+				</li>				
 
 				<li class="main-menu__item">
 
 					<a href="#" class="main-menu__link">Servicios</a>
 					
 				</li>
-
-				<li class="main-menu__item">
-
-					<a href="#" class="main-menu__link">Paquetes</a>
-					
-				</li>
-
-				<li class="main-menu__item">
-
-					<a href="#" class="main-menu__link">Agendar</a>
-					
-				</li>
-
-				<li class="main-menu__item">
-
-					<a href="#" class="main-menu__link">Portafolio</a>
-					
-				</li>
+				
 
 				<li class="main-menu__item">
 

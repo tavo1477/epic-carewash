@@ -15,6 +15,12 @@ $ruta = ControladorRuta::ctrRuta();
 
 	<link rel="stylesheet"href="<?php echo $ruta ?>vistas/assets/css/styles.css" async>
 
+	<!--=====================================
+    PLUGINS DE CSS
+    ======================================-->
+
+    <script src="https://kit.fontawesome.com/ac222f5566.js" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -50,6 +56,8 @@ $ruta = ControladorRuta::ctrRuta();
 	?>
 
 	<script async src="<?php echo $ruta ?>vistas/js/header.js"></script>
+	<script async src="<?php echo $ruta ?>vistas/js/slider.js"></script>
+	
 	
 </body>
 </html>
