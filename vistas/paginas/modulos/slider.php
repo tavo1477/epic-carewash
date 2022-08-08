@@ -15,6 +15,8 @@ SLIDESHOW
 				<h1>Es hora de venir a limpiar tu auto</h1>
 				<h3>¡Centro profesional de lavado de autos para ayudarlo a obtener un vehículo limpio!</h3>
 
+				<a href="#" class="btn-flip" data-back="Descubre más" data-front="Descubre más"></a>
+
 			</div>
 
 		</li>
