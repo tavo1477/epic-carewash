@@ -1,0 +1,168 @@
+/*=============================================
+PAQUETES
+=============================================*/
+
+.paquetes{
+
+	background : #EDF5F9;
+	margin-top: 10rem;
+
+	&-smallTitle{
+
+		padding        : 2rem;
+		color          : $primary-color;
+		font-family    : $font-headers;
+		text-transform : uppercase;
+		font-size      : 1rem;
+		margin         : 0;
+
+	}
+
+	&-title{
+
+		font-size      : 2.5rem;
+		font-family    : $font-headers;
+		color          : $secondary-color;
+
+	}
+
+}
+
+.autos-container{
+
+	flex-wrap  : wrap;
+	text-align : center;
+
+	.autos-img{
+
+		margin-bottom : 1.5rem;		
+		padding       : 2rem;
+		width         : calc(50% - 2rem);
+		margin        : 1rem;
+
+		&:hover{
+
+			border        : 2px solid rgba(0, 0, 0, 0.1);
+			border-radius : 8px;
+
+
+		}
+
+		img{
+
+			&:hover{
+
+				transform  : scale(1.1);
+				transition : .5s ease-in;
+
+			}
+		}	
+
+		@include from(lg){
+
+			width: calc(25% - 2rem);
+			margin: 1rem;
+
+		}
+
+	}
+
+}
+
+.paquetes-container{
+
+	margin-top : 2rem;
+	flex-wrap  : wrap;
+	text-align : center;	
+
+	.paquetes-item{
+
+		width         : 100%;
+		margin-bottom : 1.5rem;
+		background    : #fff;
+		padding       : 2rem;
+
+		hr{
+
+			border-top: 1px solid #e5e5e5;
+
+		}
+
+		&__title{
+
+			color       : $primary-color;
+			font-family : $font-headers;
+			font-size   : 1.375rem;
+			line-height : 1.2;
+			margin      : 0;
+
+		}
+
+		&__price{
+
+			margin : 0;
+
+			.price-moneda::before{
+
+				content   : "₡";
+				top: -1.25em;
+    			left: -5px;
+    			position : relative;
+    			color    : $secondary-color;
+
+			}
+
+			.price{
+
+				font-size   : 70px;
+				font-family : $font-headers;
+				color       : $secondary-color;
+				font-weight : 400;
+
+			}
+
+		}
+
+		@include from(lg){
+
+			width: calc(33.33% - 2rem);
+			margin: 1rem;
+
+		}
+
+		&__duracion{
+
+			font-size   : 16px;
+			font-family : $font-headers;
+			color       : $secondary-color;
+			font-weight : 400;
+
+		}
+
+		.paquetes-list{
+
+			img{
+
+				width : 21px;
+			   height : 21px;
+
+			}
+
+			&-title{
+
+				font-family : $font-headers;
+				font-size   : 16px;
+				color       : $secondary-color;
+			    font-weight : 400;
+			    padding-left : .5rem;
+
+			}
+
+		}
+
+	}
+
+
+}
+
+
