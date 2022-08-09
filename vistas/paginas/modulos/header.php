@@ -22,11 +22,23 @@ HEADER
 
 					<a href="#" class="main-menu__link">Inicio</a>
 					
-				</li>				
+				</li>	
+
+				<li class="main-menu__item">
+
+					<a href="#" class="main-menu__link">Nosotros</a>
+					
+				</li>			
 
 				<li class="main-menu__item">
 
 					<a href="#" class="main-menu__link">Servicios</a>
+					
+				</li>
+
+				<li class="main-menu__item">
+
+					<a href="#" class="main-menu__link">VIP</a>
 					
 				</li>
 				
@@ -34,6 +46,12 @@ HEADER
 				<li class="main-menu__item">
 
 					<a href="#" class="main-menu__link">Contacto</a>
+					
+				</li>
+
+				<li class="main-menu__agenda" style="margin-left: 10px;">
+
+					<a href="#" class="btn-flip" data-back="Agendar una cita" data-front="Agendar una cita"></a>
 					
 				</li>
 
