@@ -50,11 +50,12 @@ MENÚ
 
                 margin-top    : 0;
                 margin-bottom : 0;
-                padding-left  : 0;
+                padding-left  : 1rem;
                 
                 @include from(lg){
                     
-                    display: flex;
+                    display       : flex;
+                    padding-left  : 0;
 
                 }
 

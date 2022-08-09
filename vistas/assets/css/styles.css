@@ -196,13 +196,14 @@ MENÚ
 .main-header__block .main-nav .main-menu {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0;
+  padding-left: 1rem;
 }
 @media screen and (min-width: 64em) {
   .main-header__block .main-nav .main-menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-left: 0;
   }
 }
 .main-header__block .main-nav .main-menu__item {
@@ -430,10 +431,9 @@ SERVICIOS
   height: 70px;
 }
 .servicios-container .servicios-item .servicios-title {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #263788;
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: normal;
 }
 
 .service-calling {
@@ -449,6 +449,7 @@ SERVICIOS
   width: 100%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-top: 1.5rem;
 }
 @media screen and (min-width: 64em) {
   .service-calling {

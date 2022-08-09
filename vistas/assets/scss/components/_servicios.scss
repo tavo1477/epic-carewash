@@ -73,10 +73,9 @@ SERVICIOS
 
 			.servicios-title{
 
-				font-size   : 1.25rem;
+				font-size   : 1.5rem;
 				color       : #263788;
-				font-family : $font-headers; 
-				font-weight : normal;
+				font-family : $font-headers; 			
 
 			}
 
@@ -95,6 +94,7 @@ SERVICIOS
 	align-items     : center;
 	width           : 100%;
 	flex-wrap       : wrap;
+	margin-top      : 1.5rem;
 
 	@include from(lg){
 
