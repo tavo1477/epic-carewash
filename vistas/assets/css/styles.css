@@ -471,3 +471,98 @@ SERVICIOS
 .service-calling .movil-call span {
   color: #2db7ff;
 }
+
+/*=============================================
+NOSOTROS
+=============================================*/
+.nosotros-app .nosotros-main {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media screen and (min-width: 64em) {
+  .nosotros-app .nosotros-main {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+.nosotros-app .nosotros-main .main-aside {
+  padding: 2rem;
+}
+@media screen and (min-width: 64em) {
+  .nosotros-app .nosotros-main .main-aside {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+  }
+}
+.nosotros-app .nosotros-main .main-aside .aside-smallTitle {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #2db7ff;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+.nosotros-app .nosotros-main .main-aside .aside-title {
+  font-size: 1.5rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: #285EAC;
+}
+@media screen and (min-width: 64em) {
+  .nosotros-app .nosotros-main .main-aside .aside-title {
+    font-size: 2.5rem;
+  }
+}
+.nosotros-app .nosotros-main .main-aside .aside-text {
+  color: #62718d;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  padding-right: 2rem;
+}
+.nosotros-app .nosotros-main .nosotros-image {
+  position: relative;
+  padding: 2rem;
+}
+.nosotros-app .nosotros-main .nosotros-image img {
+  width: 100%;
+}
+@media screen and (min-width: 64em) {
+  .nosotros-app .nosotros-main .nosotros-image img {
+    width: 570px;
+    height: 460px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .nosotros-app .nosotros-main .nosotros-image {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+  }
+}
+
+.imgHolderv1:before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: -9px;
+  background: #2db7ff;
+}
+
+.imgHolderv1:before {
+  opacity: 0.2;
+  z-index: -1;
+  -webkit-transform: rotate(70deg);
+          transform: rotate(70deg);
+  border-radius: 99px;
+}
+@media screen and (min-width: 64em) {
+  .imgHolderv1:before {
+    width: 611px;
+    height: 407px;
+    margin-top: 5rem;
+  }
+}
