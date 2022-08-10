@@ -1,0 +1,184 @@
+/*=============================================
+FOOTER
+=============================================*/
+
+.main-footer{
+
+	background     : #2D3E8E;
+	flex-direction : column;
+	text-align     : center;
+
+	@include from(lg){
+
+		flex-direction: row;
+		justify-content: space-between;
+
+	}
+
+	.footer-nav{
+
+		.footer-menu{
+
+			display   : flex;
+			flex-wrap : wrap;
+
+			&__item{
+
+				margin      : 10px;
+				font-family : $font-headers;
+				font-size   : 1.063rem;
+
+			}
+
+			&__link{
+
+				color   : #fff;
+				opacity : .7;
+
+				&:hover{
+
+					opacity : 1;
+
+				}
+
+			}
+
+		}
+
+	}
+
+	.footer-redesSociales{
+
+		display : flex;
+		padding : 1.1rem;
+
+		&__title{
+
+			color        : #fff;		
+			font-size    : 1.125rem;
+			opacity      : .7;
+			font-family  : $font-headers;	
+			margin-right : .5rem;	
+
+		}
+		
+		&__links{
+
+			display    : flex;
+			position   : relative;
+			margin-top : -7px;
+
+			a{
+
+				i{
+
+					background      : #fff;
+					color           : $secondary-color;
+					width           : 36px;
+					height          : 36px;
+					border-radius   : 50%;
+					display         : flex;
+	 				justify-content : center;
+		 			align-items     : center;
+					font-size       : 1.25rem;	
+					margin-left     : 10px;	
+
+					&:hover{
+
+						color : $primary-color;
+
+					}						
+
+				}
+
+			}							
+
+		}
+
+	}
+
+}
+
+/*=============================================
+SECOND FOOTER
+=============================================*/
+
+.second-footer{
+
+	background          : linear-gradient(rgba($secondary-color, .5), rgba($secondary-color, .5)), url(../../../vistas/images/background-footer.jpg) no-repeat;
+	background-size     : cover;
+ 	object-fit          : cover;
+ 	background-position : center;
+
+ 	&__content{ 		 		
+
+ 		&--container{
+
+ 			flex-direction: column;
+
+ 			@include from(lg){
+
+				flex-direction  : row;
+				justify-content : space-between;
+				align-items     : center;
+
+			}
+
+			.second-footer__item{
+
+				width   : 33.33%;
+				padding : 2rem;
+
+				.item-title{
+
+					font-size   : 1.5rem;
+					color       : #fff;
+					font-family : $font-headers;
+
+				}
+
+				.item-phone{
+
+					display : flex;
+
+					i{
+
+						color        : $primary-color;
+						font-size    : 1.5rem;
+						margin-right : 10px;
+
+					}
+
+				}
+
+				.item-text{
+
+					font-size   : 1.063rem;
+					font-family : $font-main;
+					color       : #fff;
+					opacity     : .7;
+
+					li{
+
+						margin-top : 5px;
+
+					}
+				}
+
+			}
+
+ 		}
+
+ 	}
+
+ 	.copyright{
+
+ 		color       : #fff;
+ 		padding     : 1rem;
+ 		opacity     : .7;
+ 		font-size   : 1rem;
+ 		font-family : $font-main;
+
+ 	}
+
+}
