@@ -121,6 +121,6 @@ SECOND FOOTER
 
 	<hr style="opacity: .3;">
 
-	<p class=" copyright center-content">Epic Carwash - Todos los derechos reservados © 2022 | Diseñado y desarrollado por Gustavo Solórzano Tinoco</p>
+	<p class="copyright center-content">Epic Carewash - Todos los derechos reservados © 2022 | Diseñado y desarrollado por Gustavo Solórzano Tinoco</p>
 
 </section>
