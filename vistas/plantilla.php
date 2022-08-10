@@ -52,6 +52,12 @@ $ruta = ControladorRuta::ctrRuta();
 		
 	}
 
+	/*=============================================
+	Módulos fijos inferiores
+	=============================================*/	
+
+	include "paginas/modulos/footer.php";
+
 
 	?>
 
