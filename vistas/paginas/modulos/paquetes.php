@@ -82,7 +82,7 @@ PAQUETES
 
 				</div>
 
-				<a href="#" class="btn-flip" data-back="Escoga el Plan" data-front="Escoga el Paquete" style="margin-top: 9.5rem;"></a>
+				<a href="#" class="btn-flip" data-back="Escoga el Plan" data-front="Escoga el Paquete" style="margin-top: 11.7rem;"></a>
 
 			</div>
 
@@ -140,7 +140,7 @@ PAQUETES
 
 				</div>
 
-				<a href="#" class="btn-flip" data-back="Escoga el Paquete" data-front="Escoga el Paquete" style="margin-top: 5rem;"></a>
+				<a href="#" class="btn-flip" data-back="Escoga el Paquete" data-front="Escoga el Paquete" style="margin-top: 7.3rem;"></a>
 
 			</div>
 
@@ -152,7 +152,7 @@ PAQUETES
 
 			<h3 class="paquetes-item__price"><span class="price-moneda"></span> <span class="price">20 000</span></h3>
 
-			<h4 class="paquetes-item__duracion">45 minutos</h4>
+			<h4 class="paquetes-item__duracion">Hora y media a 2 horas</h4>
 
 			<hr>
 
@@ -178,7 +178,7 @@ PAQUETES
 					
 					<img src="<?php echo $ruta ?>vistas/images/check.png" alt="">
 
-					<h3 class="paquetes-list-title">Aspirado</h3>
+					<h3 class="paquetes-list-title">Aspirado (se quitan los asientos)</h3>
 
 				</div>
 
@@ -187,6 +187,14 @@ PAQUETES
 					<img src="<?php echo $ruta ?>vistas/images/check.png" alt="">
 
 					<h3 class="paquetes-list-title">Detallado de partes negras</h3>
+
+				</div>
+
+				<div class="paquetes-list-item l-container">
+					
+					<img src="<?php echo $ruta ?>vistas/images/check.png" alt="">
+
+					<h3 class="paquetes-list-title">Detallado de llantas y guardabarros</h3>
 
 				</div>
 
