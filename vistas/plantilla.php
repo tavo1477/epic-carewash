@@ -61,8 +61,11 @@ $ruta = ControladorRuta::ctrRuta();
 
 	?>
 
+	<script async src="<?php echo $ruta ?>vistas/js/plugins/jquery.min.js"></script>
+
 	<script async src="<?php echo $ruta ?>vistas/js/header.js"></script>
 	<script async src="<?php echo $ruta ?>vistas/js/slider.js"></script>
+	<script async src="<?php echo $ruta ?>vistas/js/before_after.js"></script>
 	
 	
 </body>
