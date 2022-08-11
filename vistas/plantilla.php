@@ -21,6 +21,8 @@ $ruta = ControladorRuta::ctrRuta();
 
     <script src="https://kit.fontawesome.com/ac222f5566.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
 
 </head>
 
@@ -66,6 +68,9 @@ $ruta = ControladorRuta::ctrRuta();
 	<script async src="<?php echo $ruta ?>vistas/js/header.js"></script>
 	<script async src="<?php echo $ruta ?>vistas/js/slider.js"></script>
 	<script async src="<?php echo $ruta ?>vistas/js/before_after.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+	<script async src="<?php echo $ruta ?>vistas/js/marcas.js"></script>
 	
 	
 </body>
