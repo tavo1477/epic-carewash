@@ -8,9 +8,9 @@ BEFORE AND AFTER IMAGE
 		
 		<aside class="before_afterAside">
 			
-			<h4 class="before_afterSubtitle">Limpieza en seco</h4>
+			<h4 class="before_afterSubtitle">Limpieza profunda</h4>
 
-			<h2 class="before_afterText">Limpiar en seco cualquier suciedad dentro del automóvil y el maletero.</h2>
+			<h2 class="before_afterText">Limpiar cualquier suciedad dentro del automóvil y el maletero.</h2>
 
 		</aside>
 
