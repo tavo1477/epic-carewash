@@ -13,6 +13,10 @@ $ruta = ControladorRuta::ctrRuta();
 
 	<title>Epic Carewash - Clean Detailing</title>
 
+	<!--=====================================
+    HOJAS DE ESTILO PERSONALIZADAS
+    ======================================-->
+
 	<link rel="stylesheet"href="<?php echo $ruta ?>vistas/assets/css/styles.css" async>
 
 	<!--=====================================
@@ -21,7 +25,15 @@ $ruta = ControladorRuta::ctrRuta();
 
     <script src="https://kit.fontawesome.com/ac222f5566.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+    <!--=====================================
+    PLUGINS DE JAVASCRIPT
+    ======================================-->
+
+   	<script async src="<?php echo $ruta ?>vistas/js/plugins/jquery.min.js"></script>
+
+   	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
 
 </head>
@@ -60,17 +72,23 @@ $ruta = ControladorRuta::ctrRuta();
 
 	include "paginas/modulos/footer.php";
 
+	?>	
 
-	?>
+	<span class="ir-arriba">	
 
-	<script async src="<?php echo $ruta ?>vistas/js/plugins/jquery.min.js"></script>
+		<i class="fa-solid fa-arrow-up"></i>
+
+	</span>
+
+	<!--=====================================
+	JAVASCRIPT PERSONALIZADO
+	======================================-->
 
 	<script async src="<?php echo $ruta ?>vistas/js/header.js"></script>
 	<script async src="<?php echo $ruta ?>vistas/js/slider.js"></script>
-	<script async src="<?php echo $ruta ?>vistas/js/before_after.js"></script>
-
-	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-	<script async src="<?php echo $ruta ?>vistas/js/marcas.js"></script>
+	<script async src="<?php echo $ruta ?>vistas/js/before_after.js"></script>	
+	<script async src="<?php echo $ruta ?>vistas/js/marcas.js"></script>	
+	<script async src="<?php echo $ruta ?>vistas/js/ir_arriba.js"></script>
 	
 	
 </body>
