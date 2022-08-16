@@ -60,7 +60,7 @@ $ruta = ControladorRuta::ctrRuta();
 	        $_GET["ruta"] == "vip" ||
 	        $_GET["ruta"] == "contacto"){
 
-			include "paginas/".$_GET["pagina"].".php";
+			include "paginas/".$_GET["ruta"].".php";
 
 		}
 
