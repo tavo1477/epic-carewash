@@ -114,7 +114,7 @@ SECOND FOOTER
 
  		&--container{
 
- 			flex-direction: column;
+ 			flex-direction : column; 			
 
  			@include from(lg){
 
@@ -126,8 +126,15 @@ SECOND FOOTER
 
 			.second-footer__item{
 
-				width   : 33.33%;
+				width   : 100%;
 				padding : 2rem;
+
+				@include from(lg){
+
+					width : 33.33%;
+
+				}
+
 
 				.item-title{
 
@@ -157,6 +164,7 @@ SECOND FOOTER
 					font-family : $font-main;
 					color       : #fff;
 					opacity     : .7;
+					width       : 100%; 
 
 					li{
 
