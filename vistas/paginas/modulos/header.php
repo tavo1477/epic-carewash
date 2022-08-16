@@ -20,38 +20,38 @@ HEADER
 				
 				<li class="main-menu__item">
 
-					<a href="#" class="main-menu__link">Inicio</a>
+					<a href="<?php echo $ruta ?>" class="main-menu__link">Inicio</a>
 					
 				</li>	
 
 				<li class="main-menu__item">
 
-					<a href="#" class="main-menu__link">Nosotros</a>
+					<a href="nosotros" class="main-menu__link">Nosotros</a>
 					
 				</li>			
 
 				<li class="main-menu__item">
 
-					<a href="#" class="main-menu__link">Servicios</a>
+					<a href="servicios" class="main-menu__link">Servicios</a>
 					
 				</li>
 
 				<li class="main-menu__item">
 
-					<a href="#" class="main-menu__link">VIP</a>
+					<a href="vip" class="main-menu__link">VIP</a>
 					
 				</li>
 				
 
 				<li class="main-menu__item">
 
-					<a href="#" class="main-menu__link">Contacto</a>
+					<a href="contacto" class="main-menu__link">Contacto</a>
 					
 				</li>
 
 				<li class="main-menu__agenda" style="margin-left: 10px;">
 
-					<a href="#" class="btn-flip" data-back="Agendar una cita" data-front="Agendar una cita"></a>
+					<a href="agenda" class="btn-flip" data-back="Agendar una cita" data-front="Agendar una cita"></a>
 					
 				</li>
 
