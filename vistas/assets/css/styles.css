@@ -177,6 +177,29 @@ p {
   border-radius: 99px;
 }
 
+.button-form {
+  background: #2db7ff;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  padding: 12px 25px;
+  cursor: pointer;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  border: none;
+  border-radius: 99px;
+  font-size: 1.125rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 700;
+  width: 100%;
+  margin: 20px auto;
+}
+.button-form:hover {
+  background: #fff;
+  color: #2db7ff;
+  border: 2px solid #2db7ff;
+}
+
 /*=============================================
 MENÚ
 =============================================*/
