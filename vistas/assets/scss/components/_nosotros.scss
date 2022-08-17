@@ -1,5 +1,5 @@
 /*=============================================
-NOSOTROS
+NOSOTROS INICIO
 =============================================*/
 
 .nosotros-app{
@@ -119,3 +119,132 @@ NOSOTROS
 
 }
 
+/*=============================================
+NOSOTROS PÁGINA
+=============================================*/
+
+.nosotros-container{
+
+	&__title{
+
+		font-size   : 2.5rem;
+		color       : $secondary-color;
+		font-family : $font-headers;
+		margin      : 0;
+		padding-top : 3rem;
+
+	}
+
+	&__text{
+
+		color         : #62718d;
+		font-size     : 1.25rem;
+		font-family   : $font-main;
+		font-weight   : 400;
+		line-height   : 1.5;
+		margin-top    : 1rem;
+
+	}
+
+}
+
+.nosotrosApp{
+
+	.nosotrosMain{
+
+		flex-direction : column;
+
+		@include from(lg){
+
+			flex-direction : row;
+
+		}	
+
+		.nosotrosAside{
+
+			padding: 2rem;
+
+			@include from(lg){
+
+				flex : 1 0 50%;
+
+			}
+
+			.nosotrosAsideImg{
+
+				img{
+
+					border-radius : 99px; 
+
+				}
+
+			}
+
+		}
+
+		.nosotros-info{
+
+			display         : flex;
+			flex-direction  : column;
+			justify-content : center;
+
+			&__subTitle{
+
+				color          : $primary-color;
+				text-transform : uppercase;
+				font-family    : $font-headers;
+				font-size      : 1rem; 
+				margin         : 0;
+
+			}
+
+			&__title{
+
+				color       : $secondary-color;
+				font-family : $font-headers;
+				font-size   : 2.5rem;
+				margin-top  : 1rem;
+
+			}
+
+			&__text{
+
+				color         : #62718d;
+				font-size     : 1.063rem;
+				font-family   : $font-main;
+				font-weight   : 400;
+    			line-height   : 1.5;
+
+			}
+
+		}	
+
+	}
+
+}
+
+/*=============================================
+NOSOTROS CERTIFICADO
+=============================================*/
+
+.nosotros-certificado{
+
+	&__title{
+
+		font-size   : 2.5rem;
+		color       : $secondary-color;
+		font-family : $font-headers;
+		margin      : 0;
+		padding-top : 2rem;
+
+	}
+
+	img{
+
+		padding    : 2rem;
+		width      : 40%;
+		text-align : center;
+
+	}
+
+}
