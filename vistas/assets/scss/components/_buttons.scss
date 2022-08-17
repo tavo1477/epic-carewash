@@ -67,3 +67,30 @@ $speed : 0.5s;
     }
 
 }
+
+
+.button-form {
+
+    background    : $primary-color;
+    color         : #fff;
+    text-align    : center;
+    display       : inline-block;
+    padding       : 12px 25px;
+    cursor        : pointer;
+    transition    : ease .5s;
+    border        : none;
+    border-radius : 99px;
+    font-size     : 1.125rem;    
+    font-family   : $font-headers;
+    font-weight   : 700;
+    width         : 100%;
+    margin        : 20px auto;
+
+    &:hover{
+
+        background : #fff;
+        color      : $primary-color;
+        border     : 2px solid $primary-color;
+
+    }
+}
