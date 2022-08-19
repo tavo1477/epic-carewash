@@ -82,7 +82,7 @@ PAQUETES
 
 				</div>
 
-				<a href="#" class="btn-flip" data-back="Escoga el Plan" data-front="Escoga el Paquete" style="margin-top: 11.7rem;"></a>
+				<a href="contacto" class="btn-flip" data-back="Escoga el Plan" data-front="Escoga el Paquete" style="margin-top: 11.7rem;"></a>
 
 			</div>
 
@@ -140,7 +140,7 @@ PAQUETES
 
 				</div>
 
-				<a href="#" class="btn-flip" data-back="Escoga el Paquete" data-front="Escoga el Paquete" style="margin-top: 7.3rem;"></a>
+				<a href="contacto" class="btn-flip" data-back="Escoga el Paquete" data-front="Escoga el Paquete" style="margin-top: 7.3rem;"></a>
 
 			</div>
 
@@ -222,7 +222,7 @@ PAQUETES
 
 				</div>
 
-				<a href="#" class="btn-flip" data-back="Escoga el Paquete" data-front="Escoga el Paquete" style="margin-top: .5rem;" ></a>
+				<a href="contacto" class="btn-flip" data-back="Escoga el Paquete" data-front="Escoga el Paquete" style="margin-top: .5rem;" ></a>
 
 			</div>
 
