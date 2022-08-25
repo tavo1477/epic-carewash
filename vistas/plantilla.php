@@ -17,7 +17,7 @@ $ruta = ControladorRuta::ctrRuta();
     HOJAS DE ESTILO PERSONALIZADAS
     ======================================-->
 
-	<link rel="stylesheet"href="<?php echo $ruta ?>vistas/assets/css/styles.css" async>
+	<link rel="stylesheet" href="<?php echo $ruta ?>vistas/assets/css/styles.css" async>
 
 	<!--=====================================
     PLUGINS DE CSS
@@ -27,14 +27,29 @@ $ruta = ControladorRuta::ctrRuta();
 
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
 
+     <link rel="stylesheet" href="<?php echo $ruta ?>vistas/assets/css/plugins/jquery.fancybox.min.css" async>
+
     <!--=====================================
     PLUGINS DE JAVASCRIPT
     ======================================-->
 
    	<script async src="<?php echo $ruta ?>vistas/js/plugins/jquery.min.js"></script>
 
+   	<script async src="<?php echo $ruta ?>vistas/js/plugins/jquery.fancybox.min.js"></script>  
+
    	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+   	<script>
+   		
+
+   		$('[data-fancybox]').fancybox({
+		    youtube : {
+		        controls : 0,
+		        showinfo : 0
+		    }
+		    
+		});
+   	</script>  
 
 </head>
 
