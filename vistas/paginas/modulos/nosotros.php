@@ -14,11 +14,11 @@ NOAOTROS
 
 			<p class="aside-text">
 				
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic sapiente exercitationem quae. Quaerat labore animi quia cumque in atque, voluptatibus aliquam laboriosam fuga repellendus qui optio quae, soluta, beatae tenetur accusamus, adipisci explicabo veniam corporis consequuntur placeat itaque velit molestias dolores quos. Quaerat esse ad, accusamus? Nulla, unde!
+				¿Quiere que su vehículo vuelva a lucir como nuevo? ¿Volver a disfrutarlo plenamente o venderlo? En ambos casos, ha venido al lugar correcto en Epic CareWash se lo detallamos...
 
 			</p>
 
-			<a href="#" class="btn-flip" data-back="Más información" data-front="Más información"></a>
+			<a href="<?php echo $ruta?>nosotros" class="btn-flip" data-back="Más información" data-front="Más información"></a>
 
 		</aside>
 
