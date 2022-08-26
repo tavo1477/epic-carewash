@@ -47,7 +47,7 @@ NOSOTROS
 
         <h2 class="nosotros-info__title">Lavado y Limpieza Profesional <br> de tu auto</h2>
 
-        <p class="nosotros-info__text">Gabriel Canales técnico en soporte y mantenimiento de computadoras y estudiante de ingeniería crea Epic Carewash viendo la necesidad de brindar un servicio diferente con los mejores productos.</p>          
+        <p class="nosotros-info__text">¿Quiere que su vehículo vuelva a lucir como nuevo? ¿Volver a disfrutarlo plenamente o venderlo? En ambos casos, ha venido al lugar correcto en Epic CareWash se lo detallamos, realizamos una inspección total del vehículo para así garantizar que hemos detallado cada lugar, cada uno de nuestros lavados van de 1 hora a 3 horas aproximadamente.</p>          
 
         </section>
 
