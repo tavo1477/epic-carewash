@@ -425,7 +425,7 @@ MENÚ
 }
 
 /*=============================================
-SERVICIOS
+SERVICIOS INICIO
 =============================================*/
 .servicios {
   background: #253685;
@@ -461,12 +461,6 @@ SERVICIOS
 @media screen and (min-width: 48em) {
   .servicios-container .servicios-item {
     width: calc(50% - 2rem);
-    margin: 1rem;
-  }
-}
-@media screen and (min-width: 64em) {
-  .servicios-container .servicios-item {
-    width: calc(25% - 2rem);
     margin: 1rem;
   }
 }
@@ -523,6 +517,295 @@ SERVICIOS
 }
 .service-calling .movil-call span {
   color: #2db7ff;
+}
+
+/*=============================================
+SERVICIOS PÁGINA
+=============================================*/
+.serviciosBlock-smallTitle {
+  color: #2db7ff;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+.serviciosBlock-title {
+  color: #285EAC;
+  font-size: 2.5rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  padding: 0.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+.serviciosBlock-text {
+  color: #62718d;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.serviciosBlock-container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+.serviciosBlock-container__item {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 64em) {
+  .serviciosBlock-container__item {
+    width: calc(33.33% - 2rem);
+    margin: 1rem;
+  }
+}
+.serviciosBlock-container__item .services-content__title {
+  color: #285EAC;
+  font-size: 1.5rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  padding-top: 1rem;
+  margin: 0;
+}
+.serviciosBlock-container__item .services-content__text {
+  color: #62718d;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-top: 0.5rem;
+}
+
+.servicesBanner {
+  background: #263788;
+  height: 100%;
+  padding: 4rem;
+}
+.servicesBanner__content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media screen and (min-width: 64em) {
+  .servicesBanner__content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+.servicesBanner__content .content-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.servicesBanner__content .content-information .content-desc {
+  margin-left: 1rem;
+}
+.servicesBanner__content .content-information .content-desc__title {
+  color: #fff;
+  font-size: 2.25rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin: 0;
+}
+.servicesBanner__content .content-information .content-desc__text {
+  color: #a0abdc;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-top: 0.5rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.servicesOptions {
+  background: #EDF5F9;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.servicesOptions-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media screen and (min-width: 64em) {
+  .servicesOptions-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+.servicesOptions-container__desc .servicesOptions-title {
+  font-size: 2rem;
+  color: #285EAC;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+.servicesOptions-container__desc .servicesOptions-text {
+  color: #62718d;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  padding-right: 2rem;
+}
+@media screen and (min-width: 64em) {
+  .servicesOptions-container__desc {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 33.33%;
+            flex: 1 0 33.33%;
+  }
+}
+.servicesOptions-container__video {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(38, 55, 136, 0.5)), to(rgba(38, 55, 136, 0.5))), url(../../../vistas/images/video-epic-carewash.png) no-repeat;
+  background: linear-gradient(rgba(38, 55, 136, 0.5), rgba(38, 55, 136, 0.5)), url(../../../vistas/images/video-epic-carewash.png) no-repeat;
+  border-radius: 30px;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  position: relative;
+}
+.servicesOptions-container__video .video-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 62px;
+  height: 62px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.servicesOptions-container__video .video-container i {
+  color: #2db7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 32px;
+}
+.servicesOptions-container__video .video-container i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+@media screen and (min-width: 64em) {
+  .servicesOptions-container__video {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 33.33%;
+            flex: 1 0 33.33%;
+  }
+}
+@media screen and (min-width: 64em) {
+  .servicesOptions-container__list {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 33.33%;
+            flex: 1 0 33.33%;
+  }
+}
+.servicesOptions-container__list .servicesOptions-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.servicesOptions-container__list .servicesOptions-item i {
+  color: #2db7ff;
+  font-size: 1.0625rem;
+}
+.servicesOptions-container__list .servicesOptions-item .item-title {
+  color: #62718d;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin-left: 1rem;
+}
+
+.servicesPaying {
+  padding: 5rem;
+  color: #fff;
+  position: relative;
+  background: #2db7ff;
+}
+.servicesPaying .paying-content {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  font-weight: normal;
+  color: #fff;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+.servicesPaying .paying-content .servicesPaying-item {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 64em) {
+  .servicesPaying .paying-content .servicesPaying-item {
+    width: calc(33.33% - 2rem);
+    margin: 1rem;
+  }
+}
+.servicesPaying .paying-content .servicesPaying-item .payingOption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.servicesPaying .paying-content .servicesPaying-item .payingOption .paying-number {
+  background: #fff;
+  color: #000;
+  width: 90px;
+  height: 90px;
+  border: 10px solid rgba(45, 183, 255, 0.5);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+.servicesPaying .paying-content .servicesPaying-item .paying-text {
+  font-size: 1.125em;
+  font-family: "Ubuntu", sans-serif;
+}
+@media screen and (min-width: 64em) {
+  .servicesPaying .paying-content .servicesPaying-item .paying-text {
+    font-size: 1.8rem;
+  }
+}
+.servicesPaying__hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 /*=============================================
@@ -1187,11 +1470,15 @@ FOOTER
 =============================================*/
 .main-footer {
   background: #2D3E8E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 @media screen and (min-width: 64em) {
   .main-footer {
