@@ -2,33 +2,33 @@
 FOOTER
 =============================================-->
 
-<footer class="main-footer l-container">
+<footer class="main-footer l-section">
 
 	<div class="footer-nav">
-		
+
 		<ul class="footer-menu">
 			
 			<li class="footer-menu__item">
 
-				<a href="#" class="footer-menu__link">¿Quiénes somos?</a>
+				<a href="nosotros" class="footer-menu__link">Nosotros</a>
 				
 			</li>
 
 			<li class="footer-menu__item">
 
-				<a href="#" class="footer-menu__link">Servicios</a>
+				<a href="servicios" class="footer-menu__link">Servicios</a>
 				
 			</li>
 
 			<li class="footer-menu__item">
 
-				<a href="#" class="footer-menu__link">VIP</a>
+				<a href="vip" class="footer-menu__link">VIP</a>
 				
 			</li>
 
 			<li class="footer-menu__item">
 
-				<a href="#" class="footer-menu__link">Contacto</a>
+				<a href="contacto" class="footer-menu__link">Contacto</a>
 				
 			</li>
 
@@ -56,7 +56,7 @@ FOOTER
 
 		</div>
 
-	</div>
+	</div>	
 
 </footer>
 
@@ -72,9 +72,9 @@ SECOND FOOTER
 			
 			<div class="second-footer__item">
 
-				<h3 class="item-title">Nuestra dirección</h3>
+				<h3 class="item-title">Nosotros</h3>
 
-				<p class="item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque doloremque, culpa iure vel? Laborum, eius beatae reiciendis quos tempore iure.</p>
+				<p class="item-text">¿Quiere que su vehículo vuelva a lucir como nuevo? ¿Volver a disfrutarlo plenamente o venderlo? En ambos casos, ha venido al lugar correcto en Epic CareWash se lo detallamos</p>
 				
 
 			</div>
