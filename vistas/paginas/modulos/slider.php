@@ -15,7 +15,7 @@ SLIDESHOW
 				<h1>Es hora de venir a limpiar tu auto</h1>
 				<h3>¡Centro profesional de lavado de autos para ayudarlo a obtener un vehículo limpio!</h3>
 
-				<a href="#" class="btn-flip" data-back="Descubre Más" data-front="Descubre más"></a>
+				<a href="servicios" class="btn-flip" data-back="Descubre Más" data-front="Descubre más"></a>
 
 			</div>
 
@@ -29,7 +29,7 @@ SLIDESHOW
 				<h1>Mantén tu Auto Limpio Siempre</h1>
 				<h3>¡Estamos dedicados a brindar servicios de la mejor calidad!</h3>
 
-				<a href="#" class="btn-flip" data-back="Descubre Más" data-front="Descubre más"></a>
+				<a href="servicios" class="btn-flip" data-back="Descubre Más" data-front="Descubre más"></a>
 
 			</div>
 
@@ -39,11 +39,11 @@ SLIDESHOW
 			<img src="<?php echo $ruta ?>vistas/images/slider/slider_03.png">
 
 			<div class="textoSlide">
-				<h4>Cuida tu auto</h4>
-				<h1>Guarda el Acabado Original de tu coche</h1>
-				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+				<h4>Servicio confiable </h4>
+				<h1>100% lavado a mano y servicio detallado</h1>
+				<h3>¡Servicio y confianza es lo que puede esperar cuando llegue!</h3>
 
-				<a href="#" class="btn-flip" data-back="Descubre Más" data-front="Descubre más"></a>
+				<a href="servicios" class="btn-flip" data-back="Descubre Más" data-front="Descubre más"></a>
 				
 			</div>
 
