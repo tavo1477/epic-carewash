@@ -49,6 +49,7 @@ $ruta = ControladorRuta::ctrRuta();
 		    }
 		    
 		});
+
    	</script>  
 
 </head>
