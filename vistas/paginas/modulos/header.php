@@ -45,7 +45,7 @@ HEADER
 
 				<li class="main-menu__agenda" style="margin-left: 10px;">
 
-					<a href="agenda" class="btn-flip" data-back="Agendar una cita" data-front="Agendar una cita"></a>
+					<a href="https://api.whatsapp.com/send?phone=50685400987" target="_blank" class="btn-flip" data-back="Agendar una cita" data-front="Agendar una cita"></a>
 					
 				</li>
 
