@@ -18,13 +18,7 @@ FOOTER
 
 				<a href="servicios" class="footer-menu__link">Servicios</a>
 				
-			</li>
-
-			<li class="footer-menu__item">
-
-				<a href="vip" class="footer-menu__link">VIP</a>
-				
-			</li>
+			</li>		
 
 			<li class="footer-menu__item">
 
