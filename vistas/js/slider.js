@@ -21,15 +21,22 @@ OBJETO CON LOS MÉTODOS DEL SLIDE
 
 var m = {
 
-	inicioSlide: function() {
-		
+	inicioSlide: function() {		
 
 		p.avanzar.addEventListener("click", m.avanzar)
 		p.retroceder.addEventListener("click", m.retroceder)
 
-		m.intervalo();	
+		m.intervalo();
 
-	},	
+	},
+
+	paginacionSlide: function(item) {
+
+		p.item = item.target.parentNode.getAttribute("item") - 1;
+
+		m.movimientoSlide(p.item);
+
+	},
 
 	avanzar: function() {
 
@@ -66,7 +73,15 @@ var m = {
 
 		p.formatearLoop = true;
 
-		p.cajaSlide.style.left = item * -100 + "%";		
+		p.cajaSlide.style.left = item * -100 + "%";
+
+		for (var i = 0; i < p.paginacion.length; i++) {
+
+			p.paginacion[i].style.opacity = .5;
+
+		}
+
+		p.paginacion[item].style.opacity = 1;
 
 		if (p.animacionSilde == "slide") {
 
@@ -74,7 +89,7 @@ var m = {
 
 		}
 
-		if (p.animacionSilde == "slide") {
+		if (p.animacionSilde == "fade") {
 
 			p.imgSlide[item].style.opacity = 0;
 
@@ -84,7 +99,7 @@ var m = {
 
 				p.imgSlide[item].style.opacity = 1;
 
-			}, 1000)
+			}, 500)
 
 		}
 
