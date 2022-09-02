@@ -72,8 +72,7 @@ $ruta = ControladorRuta::ctrRuta();
 
 		if ($_GET["ruta"] == "inicio" ||
 	        $_GET["ruta"] == "nosotros" ||
-	        $_GET["ruta"] == "servicios" ||
-	        $_GET["ruta"] == "agenda" ||	      
+	        $_GET["ruta"] == "servicios" ||	              
 	        $_GET["ruta"] == "contacto"){
 
 			include "paginas/".$_GET["ruta"].".php";
