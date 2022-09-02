@@ -67,17 +67,17 @@ CONTACTO
         
             <div class="contacto-formulario__container">
                 
-                <form method="post">
+               <form method="post" onsubmit="return validarCorreo();">
                   
                   <div class="container-inputs l-container">
 
-                    <input type="text" class="input-48"  name="nombre" placeholder="Tu nombre">
+                    <input type="text" class="input-100"  id="nombre" name="nombre" placeholder="Tu nombre" required>
                      
-                     <input type="email" class="input-48" name="nombre" placeholder="Tu email"> 
+                     <input type="email" class="input-100" id="email" name="email" placeholder="Tu email" required> 
 
-                     <input type="text" class="input-48"  name="Telefono" placeholder="Tu teléfono">
+                     <input type="text" class="input-100"  id="telefono" name="telefono" placeholder="Tu teléfono" required>
 
-                     <select name="servicios" class="input-48">
+                     <select name="servicios" id="servicios" class="input-100">
 
                         <option value="">Escoge tu servicio de lavado</option>
                         <option value="lavado-basico">Lavado básico</option>
@@ -86,10 +86,7 @@ CONTACTO
 
                      </select>
 
-                     <textarea class="input-100" name="mensaje" cols="30" rows="10" placeholder="Tu mensaje">             
-
-
-                     </textarea>
+                     <textarea class="input-100" id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Tu mensaje" required></textarea>
 
                      <div class="btn center-block">
                        
@@ -100,6 +97,13 @@ CONTACTO
                   </div>  
 
                 </form>
+
+                <?php 
+
+                    $enviarCorreo = CorreoControlador::ctrEnviarCorreo();
+
+
+                 ?>
 
             </div>
 
