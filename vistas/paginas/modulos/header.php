@@ -34,13 +34,7 @@ HEADER
 
 					<a href="servicios" class="main-menu__link">Servicios</a>
 					
-				</li>
-
-				<li class="main-menu__item">
-
-					<a href="vip" class="main-menu__link">VIP</a>
-					
-				</li>
+				</li>				
 				
 
 				<li class="main-menu__item">
